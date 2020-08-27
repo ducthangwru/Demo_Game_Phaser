@@ -1,0 +1,445 @@
+{
+  "frames": {
+    "ButtonPlay.png": {
+      "frame": {
+        "x": 501,
+        "y": 338,
+        "w": 125,
+        "h": 126
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 125,
+        "h": 126
+      },
+      "sourceSize": {
+        "w": 125,
+        "h": 126
+      }
+    },
+
+    "BackgroundButton.png": {
+      "frame": {
+        "x": 631,
+        "y": 331,
+        "w": 103,
+        "h": 104
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 103,
+        "h": 104
+      },
+      "sourceSize": {
+        "w": 103,
+        "h": 104
+      }
+    },
+    "IconHome.png": {
+      "frame": {
+        "x": 187,
+        "y": 696,
+        "w": 62,
+        "h": 59
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 62,
+        "h": 59
+      },
+      "sourceSize": {
+        "w": 62,
+        "h": 59
+      }
+    },
+    "IconSetting.png": {
+      "frame": {
+        "x": 505,
+        "y": 696,
+        "w": 54,
+        "h": 54
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 54,
+        "h": 54
+      },
+      "sourceSize": {
+        "w": 54,
+        "h": 54
+      }
+    },
+    "IconHighScore.png": {
+      "frame": {
+        "x": 442,
+        "y": 697,
+        "w": 57,
+        "h": 56
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 57,
+        "h": 56
+      },
+      "sourceSize": {
+        "w": 57,
+        "h": 56
+      }
+    },
+    "TreeInBackGround_Biggest.png": {
+      "frame": {
+        "x": 511,
+        "y": 5,
+        "w": 68,
+        "h": 322
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 68,
+        "h": 322
+      },
+      "sourceSize": {
+        "w": 68,
+        "h": 322
+      }
+    },
+    "TreeInBackGround_Big.png": {
+      "frame": {
+        "x": 593,
+        "y": 19,
+        "w": 59,
+        "h": 201
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 59,
+        "h": 201
+      },
+      "sourceSize": {
+        "w": 59,
+        "h": 201
+      }
+    },
+    "TreeInBackGround_Medium.png": {
+      "frame": {
+        "x": 659,
+        "y": 6,
+        "w": 64,
+        "h": 161
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 161
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 161
+      }
+    },
+    "Icon_Setting.png": {
+      "frame": {
+        "x": 505,
+        "y": 696,
+        "w": 54,
+        "h": 54
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 54,
+        "h": 54
+      },
+      "sourceSize": {
+        "w": 54,
+        "h": 54
+      }
+    },
+    "Icon_Music.png": {
+      "frame": {
+        "x": 565,
+        "y": 698,
+        "w": 50,
+        "h": 53
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 50,
+        "h": 53
+      },
+      "sourceSize": {
+        "w": 50,
+        "h": 53
+      }
+    },
+    "Icon_Play.png": {
+      "frame": {
+        "x": 396,
+        "y": 697,
+        "w": 39,
+        "h": 58
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 39,
+        "h": 58
+      },
+      "sourceSize": {
+        "w": 39,
+        "h": 58
+      }
+    },
+    "Icon_Sound.png": {
+      "frame": {
+        "x": 331,
+        "y": 695,
+        "w": 59,
+        "h": 56
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 59,
+        "h": 56
+      },
+      "sourceSize": {
+        "w": 59,
+        "h": 56
+      }
+    },
+    "Icon_HowToPlay.png": {
+      "frame": {
+        "x": 650,
+        "y": 544,
+        "w": 48,
+        "h": 64
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 48,
+        "h": 64
+      },
+      "sourceSize": {
+        "w": 48,
+        "h": 64
+      }
+    },
+    "Icon_Menu.png": {
+      "frame": {
+        "x": 659,
+        "y": 172,
+        "w": 51,
+        "h": 61
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 51,
+        "h": 61
+      },
+      "sourceSize": {
+        "w": 51,
+        "h": 61
+      }
+    },
+    "Icon_PlayAgain.png": {
+      "frame": {
+        "x": 657,
+        "y": 260,
+        "w": 60,
+        "h": 63
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 60,
+        "h": 63
+      },
+      "sourceSize": {
+        "w": 60,
+        "h": 63
+      }
+    },
+    "Text_Settings.png": {
+      "frame": {
+        "x": 411,
+        "y": 619,
+        "w": 335,
+        "h": 73
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 335,
+        "h": 73
+      },
+      "sourceSize": {
+        "w": 335,
+        "h": 73
+      }
+    },
+    "Icon_HighScore.png": {
+      "frame": {
+        "x": 442,
+        "y": 697,
+        "w": 57,
+        "h": 56
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 57,
+        "h": 56
+      },
+      "sourceSize": {
+        "w": 57,
+        "h": 56
+      }
+    },
+    "Text_BestScore.png": {
+      "frame": {
+        "x": 5,
+        "y": 541,
+        "w": 427,
+        "h": 71
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 427,
+        "h": 71
+      },
+      "sourceSize": {
+        "w": 427,
+        "h": 71
+      }
+    },
+    "Text_Metters.png": {
+      "frame": {
+        "x": 5,
+        "y": 696,
+        "w": 177,
+        "h": 48
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 177,
+        "h": 48
+      },
+      "sourceSize": {
+        "w": 177,
+        "h": 48
+      }
+    },
+    "Text_GameOver.png": {
+      "frame": {
+        "x": 5,
+        "y": 618,
+        "w": 401,
+        "h": 71
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 401,
+        "h": 71
+      },
+      "sourceSize": {
+        "w": 401,
+        "h": 71
+      }
+    },
+    "Text_Pause.png": {
+      "frame": {
+        "x": 437,
+        "y": 545,
+        "w": 209,
+        "h": 69
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 209,
+        "h": 69
+      },
+      "sourceSize": {
+        "w": 209,
+        "h": 69
+      }
+    },
+    "Text_Game.png": {
+      "frame": {
+        "x": 5,
+        "y": 618,
+        "w": 199,
+        "h": 71
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 199,
+        "h": 71
+      },
+      "sourceSize": {
+        "w": 199,
+        "h": 71
+      }
+    }
+  }
+}
