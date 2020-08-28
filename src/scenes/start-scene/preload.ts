@@ -5,8 +5,7 @@ function loadAssets(scene: StartScene): void {
   // Load sample assets
   scene.load.image('backgroundImage', 'assets/game/background.jpg');
 
-  // Source: Open Game Art
-  scene.load.image('man', 'assets/sprites/character.png');
+  scene.load.atlas('Dead', 'assets/sprites/dead.png', 'assets/dead.json');
 }
 
 export function preloadStartScene(scene: StartScene): void {
