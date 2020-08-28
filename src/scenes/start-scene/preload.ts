@@ -3,7 +3,7 @@ import StartScene from '.';
 
 function loadAssets(scene: StartScene): void {
   // Load sample assets
-  scene.load.image('backgroundImage', 'assets/game/backgroudgame.jpg');
+  scene.load.image('backgroundImage', 'assets/game/background.jpg');
 
   // Source: Open Game Art
   scene.load.image('man', 'assets/sprites/character.png');

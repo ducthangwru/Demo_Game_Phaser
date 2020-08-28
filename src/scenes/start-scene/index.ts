@@ -11,27 +11,12 @@ const sceneConfig: Phaser.Types.Scenes.SettingsConfig = {
 export default class StartScene extends Phaser.Scene {
   public speed = 200;
 
-  private cursorKeys: Phaser.Types.Input.Keyboard.CursorKeys;
-  private image: Phaser.Physics.Arcade.Sprite;
+  public cursorKeys: Phaser.Types.Input.Keyboard.CursorKeys;
+  public image: Phaser.Physics.Arcade.Sprite;
+  public background: Phaser.GameObjects.Image;
 
   constructor() {
     super(sceneConfig);
-  }
-
-  public getCursorKey(): Phaser.Types.Input.Keyboard.CursorKeys {
-    return this.cursorKeys;
-  }
-
-  public setCursorKey(cursorKeys: Phaser.Types.Input.Keyboard.CursorKeys): void {
-    this.cursorKeys = cursorKeys;
-  }
-
-  public getImage(): Phaser.Physics.Arcade.Sprite {
-    return this.image;
-  }
-
-  public setImage(image: Phaser.Physics.Arcade.Sprite): void {
-    this.image = image;
   }
 
   public preload(): void {
