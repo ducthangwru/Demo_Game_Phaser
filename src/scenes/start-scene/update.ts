@@ -13,4 +13,8 @@ export function updateStartScene(scene: StartScene): void {
   // if (scene.cursorKeys.down.isDown) {
   //   scene.image.y += 1;
   // }
+
+  scene.input.on('gameobjectdown', () => {
+    scene.scene.start('MenuScene');
+  });
 }

@@ -14,6 +14,7 @@ export default class StartScene extends Phaser.Scene {
   public cursorKeys: Phaser.Types.Input.Keyboard.CursorKeys;
   public image: Phaser.Physics.Arcade.Sprite;
   public background: Phaser.GameObjects.Image;
+  public comeback: Phaser.GameObjects.Image;
 
   constructor() {
     super(sceneConfig);

@@ -6,6 +6,8 @@ export function createStartScene(scene: StartScene): void {
   scene.background.displayHeight = GAME_HEIGHT;
   scene.background.displayWidth = GAME_WIDTH;
 
+  scene.comeback = scene.add.image(100, 100, 'Menu', 'IconHome.png');
+  scene.comeback.setInteractive();
   // Add a player sprite that can be moved around. Place him in the middle of the screen.
   scene.anims.create({
     key: 'Dead',
@@ -20,7 +22,7 @@ export function createStartScene(scene: StartScene): void {
   // This is a nice helper Phaser provides to create listeners for some of the most common keys.
   // scene.cursorKeys = scene.input.keyboard.createCursorKeys();
 
-  // scene.image = scene.image.setVelocity(100, 200).setBounce(1, 1).setCollideWorldBounds(true);
+  scene.image = scene.image.setVelocity(100, 200).setBounce(1, 1).setCollideWorldBounds(true);
 
   scene.input.setDraggable(scene.image.setInteractive());
 
@@ -29,16 +31,18 @@ export function createStartScene(scene: StartScene): void {
   });
 
   scene.input.on('drag', function (pointer, obj, dragX, dragY) {
-    console.log(obj.x + obj.width / 2);
-    console.log(GAME_WIDTH);
-    if (obj.x + obj.width / 2 >= GAME_WIDTH) {
-      obj.setPosition(GAME_WIDTH - obj.width / 2, dragY);
-    } else {
-      obj.setPosition(dragX, dragY);
-    }
+    // console.log(obj.x + obj.width / 2);
+    // console.log(GAME_WIDTH);
+    // if (obj.x + obj.width / 2 >= GAME_WIDTH) {
+    //   obj.setPosition(GAME_WIDTH - obj.width / 2, dragY);
+    // } else {
+    //   obj.setPosition(dragX, dragY);
+    // }
+
+    obj.setPosition(dragX, dragY);
   });
 
   scene.input.on('dragend', function (pointer, obj) {
-    //obj.body.moves = true;
+    obj.body.moves = true;
   });
 }

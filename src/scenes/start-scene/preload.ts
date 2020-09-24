@@ -5,6 +5,8 @@ function loadAssets(scene: StartScene): void {
   // Load sample assets
   scene.load.image('backgroundImage', 'assets/game/background.jpg');
 
+  scene.load.atlas('Menu', 'assets/game/game_play.png', 'assets/assets_gameplay.json');
+
   scene.load.atlas('Dead', 'assets/sprites/dead.png', 'assets/dead.json');
 }
 
